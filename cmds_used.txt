@@ -1,0 +1,7 @@
+pip install pipenv (installing virtual env)
+
+pipenv install django (installing django in that virtual env)
+
+pipenv shell (activating the interpreter for the env)
+
+django-admin startproject my_new_django_server
