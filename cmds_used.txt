@@ -9,3 +9,21 @@ pipenv shell (activating the interpreter for the env)
 django-admin startproject my_new_django_server (to get an admin site package)
 
 python manage.py runserver (to run the server)
+
+
+
+
+Models and DB:
+
+python manage.py makemigrations polls (make changes in migrations (schema of DB))
+
+python manage.py sqlmigrate polls 0001
+
+go to models.py to change models/schema/db
+
+python manage.py makemigrations (to get schema)
+
+python manage.py migrate (to implement schema and get DB)
+
+
+
