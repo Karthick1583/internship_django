@@ -10,7 +10,7 @@ django-admin startproject my_new_django_server (to get an admin site package)
 
 python manage.py runserver (to run the server)
 
-
+python manage.py shell (new Python interactive shell - interpreter)
 
 
 Models and DB:
@@ -24,6 +24,20 @@ go to models.py to change models/schema/db
 python manage.py makemigrations (to get schema)
 
 python manage.py migrate (to implement schema and get DB)
+
+
+
+
+Admin site:
+
+Credentials:
+
+Username (leave blank to use 's_karthick'): s_karthick
+Email address: sara.karth158@gmail.com
+Password: kmsssrjv
+
+Superuser created successfully.
+
 
 
 
