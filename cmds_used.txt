@@ -30,6 +30,8 @@ python manage.py migrate (to implement schema and get DB)
 
 Admin site:
 
+python manage.py createsuperuser (to create an admin)
+
 Credentials:
 
 Username (leave blank to use 's_karthick'): s_karthick
