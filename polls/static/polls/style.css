@@ -1,0 +1,40 @@
+li a {
+    color: green;
+}
+
+a{
+    color: green;
+}
+.ques {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #666;
+    font-size: 34px;
+}
+
+#b0{
+    background: white url("images/background.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#b1{
+    background: white url("images/vote.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+#b2{
+    background: white url("images/results.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    text-align: center;
+}
+

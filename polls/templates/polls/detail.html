@@ -7,6 +7,12 @@
   {% endfor %}
 </ul>
 -->
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+
+<body id = "b1">
+
 <form action="{% url 'vote' question.id %}" method="post">
   {% csrf_token %}
   <fieldset>
@@ -24,5 +30,8 @@
     ><br />
     {% endfor %}
   </fieldset>
+</br>
   <button type="submit">Vote</button>
 </form>
+
+</body>
